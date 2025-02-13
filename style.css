@@ -13,10 +13,25 @@
 }
 
 .button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
     background-color: rgb(227, 255, 184);
     color: rgb(83, 57, 16);
     font-weight: bold;
     font-size: 15px;
     text-align: center;
+}
 
+.button:hover {
+    color: rgb(7, 88, 7);
+}
+
+.link {
+    color: black;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: rgb(131, 79, 7);
 }
